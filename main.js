@@ -176,9 +176,8 @@ const PRESETS = [
       a.push(phase('out', 4, 'ผ่อนคลาย', .45));
       return a;
     }
-
+ ]
   },
-  ]
   {
     id: 'nadi',
     name: 'Alternate Nostril',
