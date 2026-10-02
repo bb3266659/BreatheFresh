@@ -3,7 +3,7 @@
 
 /* ---------- Utilities ---------- */
 
-const STORAGE_KEY = 'breathe-fresh:data:v1';
+const STORAGE_KEY = 'breathe-fresh:data:v2';
 const APP_ID = 'breathe-fresh';
 const VERSION = 1;
 
@@ -111,7 +111,7 @@ function phase(t, d, label, scale) {
 const PRESETS = [
   {
     id: 'box',
-    name: 'Navy SEALsL-Box Breathing · 4-4-4-4',
+    name: 'Navy SEALs-Box Breathing · 4-4-4-4',
     goal: 'สร้างสมาธิและความนิ่งเพื่อการตัดสินใจที่แม่นยำในภาวะกดดัน',
     phases: [
       phase('in', 4, 'หายใจเข้า', 1),
@@ -152,7 +152,7 @@ const PRESETS = [
   {
     id: 'relax',
     name: 'Relaxing Breath · 4-6',
-    goal: 'ลดความวิตกกังวลระหว่างวันและรักษาระดับอารมณ์ให้คงที่ วตัดวงจรความเครียด ช่วยลดการหลั่งฮอร์โมนคอร์ติซอล',
+    goal: 'ลดความวิตกกังวลระหว่างวันและรักษาระดับอารมณ์ให้คงที่ ตัดวงจรความเครียด ช่วยลดการหลั่งฮอร์โมนคอร์ติซอล',
     phases: [
       phase('in', 4, 'หายใจเข้า', 1),
       phase('out', 6, 'ผ่อนลมหายใจออก', .45)
