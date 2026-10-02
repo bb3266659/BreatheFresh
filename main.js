@@ -158,26 +158,6 @@ const PRESETS = [
       phase('out', 6, 'ผ่อนลมหายใจออก', .45)
     ]
   },
-      {
-    id: 'tummo',
-    name: 'Tummo / Wim Hof',
-    goal: 'กระตุ้นความตื่นตัวและฝึกความอดทนต่อความเครียด (ห้ามฝึกในน้ำหรือขณะขับรถ)',
-    cyclesOnly: true,
-    build() {
-      const a = [];
-      for (let i = 1; i <= 30; i++) {
-        a.push(phase('in', 1.6, `หายใจเข้า ${i}/30`, 1));
-        a.push(phase('out', 1.4, 'ปล่อยออกตามสบาย', .6));
-      }
-      a.push(phase('out', 2, 'ผ่อนลมออกให้หมด', .35));
-      a.push(phase('hold', 60, 'กลั้นไว้ · หยุดทันทีถ้ารู้สึกไม่ไหว', 1));
-      a.push(phase('in', 2, 'สูดเข้าเต็มปอด', 1));
-      a.push(phase('hold', 15, 'กลั้นไว้', 1));
-      a.push(phase('out', 4, 'ผ่อนคลาย', .45));
-      return a;
-    }
- ]
-  },
   {
     id: 'nadi',
     name: 'Alternate Nostril',
